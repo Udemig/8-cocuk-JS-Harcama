@@ -66,3 +66,25 @@ button:hover {
   align-items: center;
   gap: 10px;
 }
+
+/* HARCAMA ALANI */
+#harcamalar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow: auto;
+  padding: 5px;
+}
+
+.harcama {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.726);
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.harcama:hover {
+  box-shadow: 2px 2px 10px rgba(197, 30, 0, 0.904);
+}
